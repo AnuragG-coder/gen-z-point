@@ -6,11 +6,12 @@
 <title>Gen-z Point</title>
 
 <style>
- 
   html{
 scroll-behavior:smooth;
 }
-  
+  section {
+scroll-margin-top: 80px;
+}
 *{
 margin:0;
 padding:0;
@@ -222,5 +223,16 @@ padding:20px;
 <p>© 2026 Gen-z Point | All Rights Reserved</p>
 </footer>
 
+ <script>
+document.querySelectorAll('nav a').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+</script>
+ 
 </body>
 </html>
