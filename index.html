@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gen-z Point</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#111;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+}
+
+.hero{
+background:linear-gradient(135deg,#111,#444);
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.search-box{
+text-align:center;
+padding:30px;
+}
+
+.search-box input{
+width:80%;
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+.filters{
+text-align:center;
+margin-bottom:20px;
+}
+
+.filters button{
+padding:10px 15px;
+margin:5px;
+border:none;
+background:#111;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:30px;
+}
+
+.card{
+background:white;
+border-radius:12px;
+padding:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.price{
+font-size:20px;
+color:green;
+margin:10px 0;
+font-weight:bold;
+}
+
+.btn{
+display:inline-block;
+padding:12px 20px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:8px;
+margin-top:10px;
+}
+
+.reviews{
+padding:40px;
+background:white;
+}
+
+.review-box{
+background:#f8f8f8;
+padding:20px;
+margin:15px 0;
+border-radius:10px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Gen-z Point</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Reviews</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Premium Accessories Store</h2>
+<p>Best Deals | Best Quality | Fast Delivery</p>
+<a class="btn" href="https://wa.me/918171062700">Order Now</a>
+</section>
+
+<div class="search-box">
+<input type="text" placeholder="Search products...">
+</div>
+
+<div class="filters">
+<button>All</button>
+<button>Earphones</button>
+<button>Chargers</button>
+<button>Covers</button>
+<button>Kitchen</button>
+</div>
+
+<section class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="Earphone">
+<h3>Type-C Earphones</h3>
+<p class="price">₹199</p>
+<a class="btn" href="https://wa.me/918171062700">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="Apple Charger">
+<h3>Apple Charger</h3>
+<p class="price">₹399</p>
+<a class="btn" href="https://wa.me/918171062700">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="Mobile Cover">
+<h3>Mobile Covers</h3>
+<p class="price">₹149</p>
+<a class="btn" href="https://wa.me/918171062700">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="Portable Juicer">
+<h3>Portable Juicer</h3>
+<p class="price">₹599</p>
+<a class="btn" href="https://wa.me/918171062700">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/250" alt="Coffee Maker">
+<h3>Milk Frother</h3>
+<p class="price">₹299</p>
+<a class="btn" href="https://wa.me/918171062700">Buy Now</a>
+</div>
+
+</section>
+
+<section class="reviews">
+<h2>Customer Reviews</h2>
+
+<div class="review-box">
+⭐⭐⭐⭐⭐  
+"Best quality earphones, sound is amazing!"
+</div>
+
+<div class="review-box">
+⭐⭐⭐⭐⭐  
+"Fast delivery and genuine chargers."
+</div>
+
+<div class="review-box">
+⭐⭐⭐⭐⭐  
+"Mobile covers quality is premium."
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Gen-z Point | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
